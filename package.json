@@ -1,0 +1,24 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "API automation testing using Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testProd": "jest ./tests/test.spec.ts",
+    "testStg": "set ENV=staging & jest ./tests/test.spec.ts",
+    "berries": "jest ./tests/berries.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "custom-env": "^2.0.2",
+    "dotenv": "^16.3.1",
+    "jest": "^29.6.4",
+    "jest-html-reporters": "^3.1.4",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
