@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "testProd": "jest ./tests/test.spec.ts",
     "testStg": "set ENV=staging & jest ./tests/test.spec.ts",
-    "berries": "jest ./tests/berries.spec.ts"
+    "berries": "jest ./tests/berries.spec.ts",
+    "stat": "jest ./tests/stat.spec.ts"
   },
   "author": "",
   "license": "ISC",
